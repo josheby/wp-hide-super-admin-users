@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Hide Super Admin Users
-Plugin URI: http://github.com/josheby/wp-hide-super-admin-users
+Plugin URI: https://github.com/josheby/wp-hide-super-admin-users
 Version: 1.0
 Description: Hides super admin users from non-super admin users within the dashboard of a WordPress multisite install.
 Network: True
