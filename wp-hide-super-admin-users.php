@@ -16,8 +16,8 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 function wphsau_setup() {
     if ( is_multisite() ) {
         if ( ! is_super_admin() ) {
-            add_action( 'pre_user_query', 'wphsau_pre_user_query' );
-            add_filter( 'views_users', 'wphsau_views_users' );
+			add_action( 'pre_user_query', 'wphsau_pre_user_query' );
+			add_filter( 'views_users', 'wphsau_views_users' );
         }
     } else {
         add_action( 'admin_notices', 'wphsau_admin_notices' );
